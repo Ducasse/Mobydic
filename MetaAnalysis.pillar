@@ -1,0 +1,16 @@
+! Tool support to understand VW apps
+
+
+!! Extensions
+One goal is to reduce or even remove as many as extensions methods as possible
+
+- How many packages are doing extensions?
+- Which classes are using these extensions?
+- In which packages such extensions are packaged?
+- How many times are they used?
+
+!! Different Namespaces
+
+!! Per package hierarchy views 
+
+In addition it would be good to know whether the classes within the same hierarchy are defined in the same namespace.

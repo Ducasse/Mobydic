@@ -1,0 +1,7 @@
+! A possible roadmap
+
+
+- First analysis of existing code
+- Plans for tests
+- Revisit chunk format fileouter and ask in the vw mailing-list for package to help migration to Pharo
+- Start to migrate elements
