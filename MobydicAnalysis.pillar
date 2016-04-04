@@ -11,6 +11,10 @@
 
 - MBD_System: contient toutes les extensions faites par Mobidyc 
 
+- MBX_Statistiques: contains classes for Propability distribution. 
+Basically one single hierarchy, simple classes, Good candidates for migration.
+
+- MB_Functions uses MBX-Statistiques
 
 
 !! Detail views

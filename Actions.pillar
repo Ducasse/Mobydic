@@ -1,11 +1,10 @@
-! A possible roadmap
-
-
+! A List of Actions
 
 !!! Environment Setup
 
-- Access to cincom store
-- Publish code on cincom store
+!!!! Access to cincom store
+
+- optional load the Package StefFoo from cincomStore
 
 [[[
 addStefCincomStoreInformation
@@ -20,6 +19,28 @@ addStefCincomStoreInformation
 
 ]]]
 
+!!!! Publish code on cincom store
+We succeed using a VW7.8 VM to publish some of the parcels.
+
+From Mobidyc 16/10/2006 we could not publish on cincom store
+- MBD\_Mobidyc
+- MBD\_Variables
+- MBD\_Kernel
+
+We could not make it works with VW 8.0. We got a Postgres (probably related to the change of encodings). 
+
+Hypothesis. May be there is an UTF-8 character inside the package.
+
+We could publish on scgstore
+- MBD\_Mobidyc
+- MBD\_Variables
+- MBD\_Kernel
+
+
+!!!! Possible next step
+- Check with fileout?
+
+
 !!! First analysis of existing code
 - Put the comments and knowledge into MobydicAnalysis.pillar file
 - Which packages to start to migrate
@@ -31,4 +52,36 @@ What are the classes that we may start to write tests.
 !!! VisualWorks fileouter
 - Revisit chunk format fileouter and ask in the vw mailing-list for package to help migration to Pharo
 
+- In StefFoo we added some tests to show that we can save a class definition and a couple of methods. 
+
+- We saw that there is Store.PundleModel>>fileOutOnFileNamed: fileName
+to use it we would have to 
+-- find how to get access to a pundle (check the Moose importer)
+-- be sure that it uses the right formatter/exporter
+
+[[[
+addBundleNamed: aString
+
+	^self addPundle: (Store.Registry bundleNamed: aString)
+]]]
+
+[[[
+addPackageNamed: aString
+
+		^self addPundle: (Store.Registry packageNamed: aString)
+]]]
+
+[[[
+allClasses
+
+	| classes |
+	classes := IdentitySet new.
+	self pundles do: [ :nameSpace | 
+		classes addAll: (nameSpace allClasses collect: #actual) ].
+	^classes asArray.
+]]]
+	
+
 !!! Polymath
+
+

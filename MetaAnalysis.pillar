@@ -1,6 +1,5 @@
 ! Tool support to understand VW apps
 
-
 !! Extensions
 One goal is to reduce or even remove as many as extensions methods as possible
 
@@ -8,6 +7,8 @@ One goal is to reduce or even remove as many as extensions methods as possible
 - Which classes are using these extensions?
 - In which packages such extensions are packaged?
 - How many times are they used?
+
+- What the dependencies to external packages (such as XML....)
 
 !! Different Namespaces
 
