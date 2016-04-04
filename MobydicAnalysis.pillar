@@ -1,10 +1,15 @@
-! About Mobydic
+! About Mobidyc
 
 
 !! Link and Various Information 
 
+- https://github.com/Ducasse/Mobydic.git
+- http://mobidyc.cnrs.fr/index.php?title=Telecharger
+
 
 !! Analysis of the system: a Package View
+
+- MBD_System: contient toutes les extensions faites par Mobidyc 
 
 
 

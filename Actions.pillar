@@ -1,7 +1,34 @@
 ! A possible roadmap
 
 
-- First analysis of existing code
-- Plans for tests
+
+!!! Environment Setup
+
+- Access to cincom store
+- Publish code on cincom store
+
+[[[
+addStefCincomStoreInformation
+	"self new addStefCincomStoreInformation"
+
+	self 
+		saveStoreProfile: 'Cincom with Stef password'
+		string: 'store.cincomsmalltalk.com:5432_store_public'
+		userName: 'ducasse'
+		password: 'ducasse1920'
+		tableOwner: 'scg'
+
+]]]
+
+!!! First analysis of existing code
+- Put the comments and knowledge into MobydicAnalysis.pillar file
+- Which packages to start to migrate
+
+!!! Plans for tests
+What are the classes that we may start to write tests.
+
+
+!!! VisualWorks fileouter
 - Revisit chunk format fileouter and ask in the vw mailing-list for package to help migration to Pharo
-- Start to migrate elements
+
+!!! Polymath
