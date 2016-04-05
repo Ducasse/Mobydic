@@ -81,6 +81,12 @@ allClasses
 	^classes asArray.
 ]]]
 	
+	
+!!! FileOuter
+!!!! How to convert a VW Packages to Pharo
+
+fo := FileOuter new.
+fo fileOutPackageNamed: 'MBD_Kernel' (for instance)
 
 !!! Polymath
 
