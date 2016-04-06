@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" font-family="Arial" font-size="13" width="1213" height="560">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" font-family="Arial" font-size="13" width="1213" height="570">
 	<desc>UML diagram model</desc>
 	<g id="_1fHpUvvtEeW9zv77lynsJg">
 		<defs>
@@ -39,16 +39,10 @@
 			<rect x="50" y="164" width="1113" height="216" rx="0" ry="0" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
 			
 		</g>
-		<g id="_H2P54N4nEDOFUIjeLOrgqw">
-			<rect x="190" y="460" width="123" height="27" rx="3" ry="3" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
-			<text x="196" y="476" font-weight="bold" fill="#806221">MBD_Statistiques</text>
-			<rect x="190" y="484" width="150" height="26" rx="0" ry="0" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
-			
-		</g>
-		<g id="_R6vdoN4nEDOFUIjeLOrgqw">
-			<rect x="370" y="460" width="112" height="27" rx="3" ry="3" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
-			<text x="376" y="476" font-weight="bold" fill="#806221">MBD_Fonctions</text>
-			<rect x="370" y="484" width="150" height="26" rx="0" ry="0" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
+		<g id="_ZQcIwN47EDONUYjevh69Xw">
+			<rect x="480" y="430" width="57" height="27" rx="3" ry="3" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
+			<text x="486" y="446" font-weight="bold" fill="#806221">MB_...</text>
+			<rect x="480" y="454" width="170" height="66" rx="0" ry="0" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
 			
 		</g>
 		<g id="_fRLaoN4kEDOFUIjeLOrgqw">
@@ -157,6 +151,16 @@
 			<rect x="760" y="270" width="62" height="28" rx="3" ry="3" fill="url(#greyGradient)" stroke="#BBBBBB" stroke-width="1"/>
 			<text x="791" y="288" text-anchor="middle" font-style="normal" font-weight="bold" fill="#033656">Uniform</text>
 			<line x1="760" y1="295" x2="822" y2="295" stroke-width="1.0" stroke="#BBBBBB"/>
+			
+		</g>
+		<g id="_ZQdW4N47EDONUYjevh69Xw">
+			<polygon fill="#FFFFFF" stroke-width="1" stroke="#BBBBBB" points="500,470 500,510 645,510 645,485 630,470 "/>
+			<text x="504" y="475" fill="#2D2D2D">
+				<tspan x="504" y="487" font-size="12">Classes of Packages</tspan>
+				<tspan x="504" y="499" font-size="12">out of the Bundle</tspan>
+				
+			</text>
+			<polygon fill="#BBBBBB" stroke-width="1" stroke="#BBBBBB" points="630,470 630,485 645,485 "/>
 			
 		</g>
 		<g id="_tPPbgN4lEDOFUIjeLOrgqw">
@@ -398,10 +402,10 @@
 			</g>
 			
 		</g>
-		<g id="_LhAUYN4nEDOFUIjeLOrgqw">
-			<polyline stroke-dasharray="1, 2" fill="none" stroke-width="1" stroke="#000000" points="276,460 335,338"/>
-			<g transform="translate(335,338)">
-				<g transform="rotate(26)">
+		<g id="_kJ0QoN48EDONUYjevh69Xw">
+			<polyline stroke-dasharray="1, 2" fill="none" stroke-width="1" stroke="#000000" points="498,430 362,338"/>
+			<g transform="translate(362,338)">
+				<g transform="rotate(-56)">
 					<polyline fill="none" stroke-width="1" stroke="#000000" points="-4,8 0,0 4,8"/>
 					
 				</g>
@@ -409,21 +413,10 @@
 			</g>
 			
 		</g>
-		<g id="_VBEVYN4nEDOFUIjeLOrgqw">
-			<polyline stroke-dasharray="1, 2" fill="none" stroke-width="1" stroke="#000000" points="429,460 350,338"/>
-			<g transform="translate(350,338)">
-				<g transform="rotate(-33)">
-					<polyline fill="none" stroke-width="1" stroke="#000000" points="-4,8 0,0 4,8"/>
-					
-				</g>
-				
-			</g>
-			
-		</g>
-		<g id="_Vpu34N4nEDOFUIjeLOrgqw">
-			<polyline stroke-dasharray="1, 2" fill="none" stroke-width="1" stroke="#000000" points="520,462 880,353"/>
-			<g transform="translate(880,353)">
-				<g transform="rotate(73)">
+		<g id="_lPAXEN48EDONUYjevh69Xw">
+			<polyline stroke-dasharray="1, 2" fill="none" stroke-width="1" stroke="#000000" points="650,442 880,355"/>
+			<g transform="translate(880,355)">
+				<g transform="rotate(69)">
 					<polyline fill="none" stroke-width="1" stroke="#000000" points="-4,8 0,0 4,8"/>
 					
 				</g>
@@ -432,9 +425,8 @@
 			
 		</g>
 		<text x="816" y="326" fill="#000000">« use »</text>
-		<text x="282" y="390" fill="#000000">« use »</text>
-		<text x="366" y="390" fill="#000000">« use »</text>
-		<text x="676" y="399" fill="#000000">« use »</text>
+		<text x="406" y="406" fill="#000000">« use »</text>
+		<text x="766" y="416" fill="#000000">« use »</text>
 		
 	</g>
 	

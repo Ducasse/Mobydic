@@ -136,7 +136,7 @@ Dead Code
 #sddParamDev_vdAdf
 #texte
 #totalOrPartialCompilation
-#tt
+#tt -> some of "t1" exist
 
 
 - MBD_System :
@@ -146,8 +146,6 @@ Can't be openned for the moment.
 * Bernoulli, Binomial, Geometrical, SampleSpace are only referenced by methods in protocols Example.
 * ContinuousProbability, DiscreteProbability, Exponential, Gamma, ProbabilityDistribution are not referenced.
 * Normal is referenced by ChartScaleSpecModel (in a package of the system called BGOK * +), seems to be a string.
-* Normal, Poisson are referenced by the package MBD_Fonction.
-* Poisson is referenced by the package MBD_Statistiques.
 * ProbabilitySistribution, the method new make "^ self basicNew", and distribuion: and inverseDistribution make "self subclassResponsibility".
 Comments of distribution: in the class ContinuousProbability describe it as "slow and dirty".
 * Uniform is referenced by Normal
@@ -162,8 +160,12 @@ new in TreeBrowserSpec (subclass of Obeject) make "^ super new init"
 * AleaGamma, comments say it works with MathScript only, it isn't referenced.
 
 - MBD_Utilitaires :
+* DateEtendue isn't referenced.
 
 - MBD_Variables :
+* GestionnaireDesVariables, coefU2S (instance) contains contradictory comments, coefValide contains an "halt", listeDesVar... and listeNomsVar... contain redondant code, there is a protocol called "recompiled from Undeclared", new make "^ super new init",  contains a protocol called "XML".
+* SubInterfaceVarQual, SubInterfaceVarQuant and TypeDeVariable, new make "^ super new init".
+* TypeDeVariable, estQuantitatif and estQualitatif have redondant code.
 
 - MBD_Primitives :
 
