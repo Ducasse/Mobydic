@@ -91,3 +91,43 @@ fo fileOutPackageNamed: 'MBD_Kernel' (for instance)
 !!! Polymath
 
 
+
+
+!!! Elements Coeurs
+
+
+- what is the simulator?
+-- Dans Mobydic
+
+- Importants concepts:
+--Espaces
+--cell	
+--wrap 	
+- Packages to drop: Swarm, fastMobydic, MathScript (java bridge)
+
+!!!!Packages to investigate: 
+-- Agent
+-- Espace
+-- Mobydic
+-- Primitives
+-- Functions
+-- Statistiques
+
+
+!!!! Package Functions
+
+- Can we write some tests?
+- Enlever XML
+- initialiser -> initialize
+
+!!!! Package Statistiques
+- Ok
+
+!!!! Package Mobidyc 
+- Project Scheduler Index Operation Simulateur 
+- Tools et UI -> out :)
+- Gestionnairederesources: que classe? Singleton?
+	
+	
+!!!! Structure de donnees
+Quid des MArray, NDico, NList, NListeCompacte	
