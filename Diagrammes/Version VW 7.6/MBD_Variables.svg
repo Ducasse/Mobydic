@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" font-family="Arial" font-size="13" width="860" height="600">
+	<desc>UML diagram model</desc>
+	<g id="_-E3h4vwTEeW9zv77lynsJg">
+		<defs>
+			<linearGradient id="greyGradient" x1="0%" y1="0%" x2="0%" y2="100%" spreadMethod="pad">
+				<stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
+				<stop offset="100%" stop-color="#EEEEEE" stop-opacity="1"/>
+				
+			</linearGradient>
+			<linearGradient id="packageGradient" x1="0%" y1="0%" x2="0%" y2="100%" spreadMethod="pad">
+				<stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
+				<stop offset="100%" stop-color="#EFE9DE" stop-opacity="0.4"/>
+				
+			</linearGradient>
+			<linearGradient id="executionSpecificationGradient" x1="0%" y1="0%" x2="0%" y2="100%" spreadMethod="pad">
+				<stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
+				<stop offset="100%" stop-color="#EFE9DE" stop-opacity="1"/>
+				
+			</linearGradient>
+			
+		</defs>
+		<g id="_cPv0sd5KEDOg-_NTRawmTg">
+			<rect x="180" y="20" width="93" height="27" rx="3" ry="3" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
+			<text x="186" y="36" font-weight="bold" fill="#806221">MBD_Kernel</text>
+			<rect x="180" y="44" width="220" height="76" rx="0" ry="0" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
+			
+		</g>
+		<g id="_eJkdEN5KEDOg-_NTRawmTg">
+			<rect x="470" y="20" width="33" height="27" rx="3" ry="3" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
+			<text x="476" y="36" font-weight="bold" fill="#806221">UI</text>
+			<rect x="470" y="44" width="230" height="76" rx="0" ry="0" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
+			
+		</g>
+		<g id="_rDTIkN5KEDOg-_NTRawmTg">
+			<rect x="50" y="140" width="110" height="27" rx="3" ry="3" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
+			<text x="56" y="156" font-weight="bold" fill="#806221">MBD_Variables</text>
+			<rect x="50" y="164" width="760" height="216" rx="0" ry="0" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
+			
+		</g>
+		<g id="_HFfA8N5LEDOg-_NTRawmTg">
+			<rect x="140" y="460" width="57" height="27" rx="3" ry="3" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
+			<text x="146" y="476" font-weight="bold" fill="#806221">MB_...</text>
+			<rect x="140" y="484" width="170" height="66" rx="0" ry="0" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
+			
+		</g>
+		<g id="_faX9oN5KEDOg-_NTRawmTg">
+			<rect x="200" y="70" width="180" height="26" rx="3" ry="3" fill="url(#greyGradient)" stroke="#BBBBBB" stroke-width="1"/>
+			<text x="290" y="88" text-anchor="middle" font-style="normal" font-weight="bold" fill="#033656">Object</text>
+			<line x1="200" y1="95" x2="380" y2="95" stroke-width="1.0" stroke="#BBBBBB"/>
+			
+		</g>
+		<g id="_mzsUkN5KEDOg-_NTRawmTg">
+			<rect x="490" y="70" width="190" height="26" rx="3" ry="3" fill="url(#greyGradient)" stroke="#BBBBBB" stroke-width="1"/>
+			<text x="585" y="88" text-anchor="middle" font-style="normal" font-weight="bold" fill="#033656">ApplicationModel</text>
+			<line x1="490" y1="95" x2="680" y2="95" stroke-width="1.0" stroke="#BBBBBB"/>
+			
+		</g>
+		<g id="_usTPkN5KEDOg-_NTRawmTg">
+			<rect x="260" y="270" width="110" height="26" rx="3" ry="3" fill="url(#greyGradient)" stroke="#BBBBBB" stroke-width="1"/>
+			<text x="315" y="288" text-anchor="middle" font-style="normal" font-weight="bold" fill="#033656">TypeDeVariable</text>
+			<line x1="260" y1="295" x2="370" y2="295" stroke-width="1.0" stroke="#BBBBBB"/>
+			
+		</g>
+		<g id="_yJ7NAN5KEDOg-_NTRawmTg">
+			<rect x="410" y="210" width="149" height="26" rx="3" ry="3" fill="url(#greyGradient)" stroke="#BBBBBB" stroke-width="1"/>
+			<text x="485" y="228" text-anchor="middle" font-style="normal" font-weight="bold" fill="#033656">SubInterfaceVarQuant</text>
+			<line x1="410" y1="235" x2="559" y2="235" stroke-width="1.0" stroke="#BBBBBB"/>
+			
+		</g>
+		<g id="_2VLsgN5KEDOg-_NTRawmTg">
+			<rect x="620" y="210" width="141" height="26" rx="3" ry="3" fill="url(#greyGradient)" stroke="#BBBBBB" stroke-width="1"/>
+			<text x="691" y="228" text-anchor="middle" font-style="normal" font-weight="bold" fill="#033656">SubInterfaceVarQual</text>
+			<line x1="620" y1="235" x2="761" y2="235" stroke-width="1.0" stroke="#BBBBBB"/>
+			
+		</g>
+		<g id="_5pqVAN5KEDOg-_NTRawmTg">
+			<rect x="530" y="280" width="124" height="26" rx="3" ry="3" fill="url(#greyGradient)" stroke="#BBBBBB" stroke-width="1"/>
+			<text x="592" y="298" text-anchor="middle" font-style="normal" font-weight="bold" fill="#033656">InterfaceVariables</text>
+			<line x1="530" y1="305" x2="654" y2="305" stroke-width="1.0" stroke="#BBBBBB"/>
+			
+		</g>
+		<g id="_9ubyAN5KEDOg-_NTRawmTg">
+			<rect x="80" y="200" width="173" height="26" rx="3" ry="3" fill="url(#greyGradient)" stroke="#BBBBBB" stroke-width="1"/>
+			<text x="167" y="218" text-anchor="middle" font-style="normal" font-weight="bold" fill="#033656">GestionnaireDesVariables</text>
+			<line x1="80" y1="225" x2="253" y2="225" stroke-width="1.0" stroke="#BBBBBB"/>
+			
+		</g>
+		<g id="_HFgPEN5LEDOg-_NTRawmTg">
+			<polygon fill="#FFFFFF" stroke-width="1" stroke="#BBBBBB" points="160,500 160,540 305,540 305,515 290,500 "/>
+			<text x="164" y="505" fill="#2D2D2D">
+				<tspan x="164" y="517" font-size="12">Classes of Packages</tspan>
+				<tspan x="164" y="529" font-size="12">out of the Bundle</tspan>
+				
+			</text>
+			<polygon fill="#BBBBBB" stroke-width="1" stroke="#BBBBBB" points="290,500 290,515 305,515 "/>
+			
+		</g>
+		<g id="_xHaAEN5KEDOg-_NTRawmTg">
+			<polyline fill="none" stroke-width="1" stroke="#000000" points="315,270 315,183"/>
+			
+		</g>
+		<g id="_xHaAEN5KEDOg-_NTRawmTg">
+			<polyline fill="none" stroke-width="1" stroke="#000000" points="315,183 315,183"/>
+			
+		</g>
+		<g id="_xHaAEN5KEDOg-_NTRawmTg">
+			<polyline fill="none" stroke-width="1" stroke="#000000" points="315,183 315,96"/>
+			<g transform="translate(315,96)">
+				<g transform="rotate(0)">
+					<polygon fill="#FFFFFF" stroke-width="1" stroke="#000000" points="-6,10 0,0 6,10 -6,10"/>
+					
+				</g>
+				
+			</g>
+			
+		</g>
+		<g id="_1XiYgN5KEDOg-_NTRawmTg">
+			<polyline fill="none" stroke-width="1" stroke="#000000" points="524,210 524,153"/>
+			
+		</g>
+		<g id="_1XiYgN5KEDOg-_NTRawmTg">
+			<polyline fill="none" stroke-width="1" stroke="#000000" points="524,153 524,153"/>
+			
+		</g>
+		<g id="_1XiYgN5KEDOg-_NTRawmTg">
+			<polyline fill="none" stroke-width="1" stroke="#000000" points="524,153 524,96"/>
+			<g transform="translate(524,96)">
+				<g transform="rotate(0)">
+					<polygon fill="#FFFFFF" stroke-width="1" stroke="#000000" points="-6,10 0,0 6,10 -6,10"/>
+					
+				</g>
+				
+			</g>
+			
+		</g>
+		<g id="_4OIyMN5KEDOg-_NTRawmTg">
+			<polyline fill="none" stroke-width="1" stroke="#000000" points="650,210 650,153"/>
+			
+		</g>
+		<g id="_4OIyMN5KEDOg-_NTRawmTg">
+			<polyline fill="none" stroke-width="1" stroke="#000000" points="650,153 650,153"/>
+			
+		</g>
+		<g id="_4OIyMN5KEDOg-_NTRawmTg">
+			<polyline fill="none" stroke-width="1" stroke="#000000" points="650,153 650,96"/>
+			<g transform="translate(650,96)">
+				<g transform="rotate(0)">
+					<polygon fill="#FFFFFF" stroke-width="1" stroke="#000000" points="-6,10 0,0 6,10 -6,10"/>
+					
+				</g>
+				
+			</g>
+			
+		</g>
+		<g id="_7zERgN5KEDOg-_NTRawmTg">
+			<polyline fill="none" stroke-width="1" stroke="#000000" points="592,280 592,188"/>
+			
+		</g>
+		<g id="_7zERgN5KEDOg-_NTRawmTg">
+			<polyline fill="none" stroke-width="1" stroke="#000000" points="592,188 592,188"/>
+			
+		</g>
+		<g id="_7zERgN5KEDOg-_NTRawmTg">
+			<polyline fill="none" stroke-width="1" stroke="#000000" points="592,188 592,96"/>
+			<g transform="translate(592,96)">
+				<g transform="rotate(0)">
+					<polygon fill="#FFFFFF" stroke-width="1" stroke="#000000" points="-6,10 0,0 6,10 -6,10"/>
+					
+				</g>
+				
+			</g>
+			
+		</g>
+		<g id="_A1QZAN5LEDOg-_NTRawmTg">
+			<polyline fill="none" stroke-width="1" stroke="#000000" points="226,200 226,148"/>
+			
+		</g>
+		<g id="_A1QZAN5LEDOg-_NTRawmTg">
+			<polyline fill="none" stroke-width="1" stroke="#000000" points="226,148 226,148"/>
+			
+		</g>
+		<g id="_A1QZAN5LEDOg-_NTRawmTg">
+			<polyline fill="none" stroke-width="1" stroke="#000000" points="226,148 226,96"/>
+			<g transform="translate(226,96)">
+				<g transform="rotate(0)">
+					<polygon fill="#FFFFFF" stroke-width="1" stroke="#000000" points="-6,10 0,0 6,10 -6,10"/>
+					
+				</g>
+				
+			</g>
+			
+		</g>
+		<g id="_IrHiAN5LEDOg-_NTRawmTg">
+			<polyline stroke-dasharray="1, 2" fill="none" stroke-width="1" stroke="#000000" points="216,460 169,226"/>
+			<g transform="translate(169,226)">
+				<g transform="rotate(-11)">
+					<polyline fill="none" stroke-width="1" stroke="#000000" points="-4,8 0,0 4,8"/>
+					
+				</g>
+				
+			</g>
+			
+		</g>
+		<g id="_OKOPAN5LEDOg-_NTRawmTg">
+			<polyline stroke-dasharray="1, 2" fill="none" stroke-width="1" stroke="#000000" points="572,280 504,236"/>
+			<g transform="translate(504,236)">
+				<g transform="rotate(-57)">
+					<polyline fill="none" stroke-width="1" stroke="#000000" points="-4,8 0,0 4,8"/>
+					
+				</g>
+				
+			</g>
+			
+		</g>
+		<g id="_PRyUAN5LEDOg-_NTRawmTg">
+			<polyline stroke-dasharray="1, 2" fill="none" stroke-width="1" stroke="#000000" points="610,280 672,236"/>
+			<g transform="translate(672,236)">
+				<g transform="rotate(55)">
+					<polyline fill="none" stroke-width="1" stroke="#000000" points="-4,8 0,0 4,8"/>
+					
+				</g>
+				
+			</g>
+			
+		</g>
+		<g id="_Syn9gN5LEDOg-_NTRawmTg">
+			<polyline stroke-dasharray="1, 2" fill="none" stroke-width="1" stroke="#000000" points="243,460 309,296"/>
+			<g transform="translate(309,296)">
+				<g transform="rotate(22)">
+					<polyline fill="none" stroke-width="1" stroke="#000000" points="-4,8 0,0 4,8"/>
+					
+				</g>
+				
+			</g>
+			
+		</g>
+		<text x="146" y="366" fill="#000000">« use »</text>
+		<text x="496" y="266" fill="#000000">« use »</text>
+		<text x="646" y="266" fill="#000000">« use »</text>
+		<text x="286" y="366" fill="#000000">« use »</text>
+		
+	</g>
+	
+</svg>

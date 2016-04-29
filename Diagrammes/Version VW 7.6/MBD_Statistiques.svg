@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" font-family="Arial" font-size="13" width="870" height="524">
+	<desc>UML diagram model</desc>
+	<g id="_8ioR4_v5EeW9zv77lynsJg">
+		<defs>
+			<linearGradient id="greyGradient" x1="0%" y1="0%" x2="0%" y2="100%" spreadMethod="pad">
+				<stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
+				<stop offset="100%" stop-color="#EEEEEE" stop-opacity="1"/>
+				
+			</linearGradient>
+			<linearGradient id="packageGradient" x1="0%" y1="0%" x2="0%" y2="100%" spreadMethod="pad">
+				<stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
+				<stop offset="100%" stop-color="#EFE9DE" stop-opacity="0.4"/>
+				
+			</linearGradient>
+			<linearGradient id="executionSpecificationGradient" x1="0%" y1="0%" x2="0%" y2="100%" spreadMethod="pad">
+				<stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
+				<stop offset="100%" stop-color="#EFE9DE" stop-opacity="1"/>
+				
+			</linearGradient>
+			
+		</defs>
+		<g id="_b95Ogd4wEDOYwYhcWW_2EQ">
+			<rect x="220" y="20" width="105" height="27" rx="3" ry="3" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
+			<text x="226" y="36" font-weight="bold" fill="#806221">MBD_Fonction</text>
+			<rect x="220" y="44" width="114" height="73" rx="0" ry="0" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
+			
+		</g>
+		<g id="_iv5GwN4wEDOYwYhcWW_2EQ">
+			<rect x="50" y="180" width="123" height="27" rx="3" ry="3" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
+			<text x="56" y="196" font-weight="bold" fill="#806221">MBD_Statistiques</text>
+			<rect x="50" y="204" width="660" height="116" rx="0" ry="0" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
+			
+		</g>
+		<g id="_ug6dwN4wEDOYwYhcWW_2EQ">
+			<rect x="370" y="20" width="48" height="27" rx="3" ry="3" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
+			<text x="376" y="36" font-weight="bold" fill="#806221">Core</text>
+			<rect x="370" y="44" width="110" height="76" rx="0" ry="0" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
+			
+		</g>
+		<g id="_Bf0XwN4xEDOYwYhcWW_2EQ">
+			<rect x="590" y="20" width="93" height="27" rx="3" ry="3" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
+			<text x="596" y="36" font-weight="bold" fill="#806221">MBD_Kernel</text>
+			<rect x="590" y="44" width="120" height="76" rx="0" ry="0" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
+			
+		</g>
+		<g id="_oUwLkN4yEDOYwYhcWW_2EQ">
+			<rect x="400" y="390" width="139" height="27" rx="3" ry="3" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
+			<text x="406" y="406" font-weight="bold" fill="#806221">MBD_ParticleSwarm</text>
+			<rect x="400" y="414" width="170" height="60" rx="0" ry="0" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
+			
+		</g>
+		<g id="_P0i2EN47EDOf3N__NQ_X9g">
+			<rect x="650" y="380" width="57" height="27" rx="3" ry="3" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
+			<text x="656" y="396" font-weight="bold" fill="#806221">MB_...</text>
+			<rect x="650" y="404" width="170" height="66" rx="0" ry="0" fill="url(#packageGradient)" stroke="#c2b79f" stroke-width="1"/>
+			
+		</g>
+		<g id="_dkex0N4wEDOYwYhcWW_2EQ">
+			<rect x="250" y="70" width="63" height="27" rx="3" ry="3" fill="url(#greyGradient)" stroke="#BBBBBB" stroke-width="1"/>
+			<text x="282" y="88" text-anchor="middle" font-style="normal" font-weight="bold" fill="#033656">Formule</text>
+			<line x1="250" y1="95" x2="313" y2="95" stroke-width="1.0" stroke="#BBBBBB"/>
+			
+		</g>
+		<g id="_gmGvwN4wEDOYwYhcWW_2EQ">
+			<rect x="230" y="230" width="87" height="27" rx="3" ry="3" fill="url(#greyGradient)" stroke="#BBBBBB" stroke-width="1"/>
+			<text x="274" y="248" text-anchor="middle" font-style="normal" font-weight="bold" fill="#033656">AleaGamma</text>
+			<line x1="230" y1="255" x2="317" y2="255" stroke-width="1.0" stroke="#BBBBBB"/>
+			
+		</g>
+		<g id="_vXA_UN4wEDOYwYhcWW_2EQ">
+			<rect x="390" y="70" width="64" height="27" rx="3" ry="3" fill="url(#greyGradient)" stroke="#BBBBBB" stroke-width="1"/>
+			<text x="422" y="88" text-anchor="middle" font-style="normal" font-weight="bold" fill="#033656">Random</text>
+			<line x1="390" y1="95" x2="454" y2="95" stroke-width="1.0" stroke="#BBBBBB"/>
+			
+		</g>
+		<g id="_y9SicN4wEDOYwYhcWW_2EQ">
+			<rect x="380" y="230" width="109" height="27" rx="3" ry="3" fill="url(#greyGradient)" stroke="#BBBBBB" stroke-width="1"/>
+			<text x="435" y="248" text-anchor="middle" font-style="normal" font-weight="bold" fill="#033656">NormalRandom</text>
+			<line x1="380" y1="255" x2="489" y2="255" stroke-width="1.0" stroke="#BBBBBB"/>
+			
+		</g>
+		<g id="_8VOiMN4wEDOYwYhcWW_2EQ">
+			<rect x="600" y="270" width="60" height="27" rx="3" ry="3" fill="url(#greyGradient)" stroke="#BBBBBB" stroke-width="1"/>
+			<text x="630" y="288" text-anchor="middle" font-style="normal" font-weight="bold" fill="#033656">Tirage</text>
+			<line x1="600" y1="295" x2="660" y2="295" stroke-width="1.0" stroke="#BBBBBB"/>
+			
+		</g>
+		<g id="_DDYcQN4xEDOYwYhcWW_2EQ">
+			<rect x="620" y="70" width="60" height="27" rx="3" ry="3" fill="url(#greyGradient)" stroke="#BBBBBB" stroke-width="1"/>
+			<text x="650" y="88" text-anchor="middle" font-style="normal" font-weight="bold" fill="#033656">Object</text>
+			<line x1="620" y1="95" x2="680" y2="95" stroke-width="1.0" stroke="#BBBBBB"/>
+			
+		</g>
+		<g id="_uDugkN4yEDOYwYhcWW_2EQ">
+			<polygon fill="#FFFFFF" stroke-width="1" stroke="#BBBBBB" points="430,424 430,464 535,464 535,439 520,424 "/>
+			<text x="434" y="429" fill="#2D2D2D">
+				<tspan x="434" y="441" font-size="12">Out of Bundle</tspan>
+				
+			</text>
+			<polygon fill="#BBBBBB" stroke-width="1" stroke="#BBBBBB" points="520,424 520,439 535,439 "/>
+			
+		</g>
+		<g id="_P0kEMN47EDOf3N__NQ_X9g">
+			<polygon fill="#FFFFFF" stroke-width="1" stroke="#BBBBBB" points="670,420 670,460 815,460 815,435 800,420 "/>
+			<text x="674" y="425" fill="#2D2D2D">
+				<tspan x="674" y="437" font-size="12">Classes of Packages</tspan>
+				<tspan x="674" y="449" font-size="12">out of the Bundle</tspan>
+				
+			</text>
+			<polygon fill="#BBBBBB" stroke-width="1" stroke="#BBBBBB" points="800,420 800,435 815,435 "/>
+			
+		</g>
+		<g id="_q60g0N4wEDOYwYhcWW_2EQ">
+			<polyline fill="none" stroke-width="1" stroke="#000000" points="281,230 281,163"/>
+			
+		</g>
+		<g id="_q60g0N4wEDOYwYhcWW_2EQ">
+			<polyline fill="none" stroke-width="1" stroke="#000000" points="281,163 281,164"/>
+			
+		</g>
+		<g id="_q60g0N4wEDOYwYhcWW_2EQ">
+			<polyline fill="none" stroke-width="1" stroke="#000000" points="281,164 281,97"/>
+			<g transform="translate(281,97)">
+				<g transform="rotate(0)">
+					<polygon fill="#FFFFFF" stroke-width="1" stroke="#000000" points="-6,10 0,0 6,10 -6,10"/>
+					
+				</g>
+				
+			</g>
+			
+		</g>
+		<g id="_2yn1QN4wEDOYwYhcWW_2EQ">
+			<polyline fill="none" stroke-width="1" stroke="#000000" points="422,230 422,163"/>
+			
+		</g>
+		<g id="_2yn1QN4wEDOYwYhcWW_2EQ">
+			<polyline fill="none" stroke-width="1" stroke="#000000" points="422,163 422,164"/>
+			
+		</g>
+		<g id="_2yn1QN4wEDOYwYhcWW_2EQ">
+			<polyline fill="none" stroke-width="1" stroke="#000000" points="422,164 422,97"/>
+			<g transform="translate(422,97)">
+				<g transform="rotate(0)">
+					<polygon fill="#FFFFFF" stroke-width="1" stroke="#000000" points="-6,10 0,0 6,10 -6,10"/>
+					
+				</g>
+				
+			</g>
+			
+		</g>
+		<g id="_-oLcQN4wEDOYwYhcWW_2EQ">
+			<polyline stroke-dasharray="1, 2" fill="none" stroke-width="1" stroke="#000000" points="600,277 489,255"/>
+			<g transform="translate(489,255)">
+				<g transform="rotate(-79)">
+					<polyline fill="none" stroke-width="1" stroke="#000000" points="-4,8 0,0 4,8"/>
+					
+				</g>
+				
+			</g>
+			
+		</g>
+		<g id="_F2rDQN4xEDOYwYhcWW_2EQ">
+			<polyline fill="none" stroke-width="1" stroke="#000000" points="640,270 640,183"/>
+			
+		</g>
+		<g id="_F2rDQN4xEDOYwYhcWW_2EQ">
+			<polyline fill="none" stroke-width="1" stroke="#000000" points="640,183 640,184"/>
+			
+		</g>
+		<g id="_F2rDQN4xEDOYwYhcWW_2EQ">
+			<polyline fill="none" stroke-width="1" stroke="#000000" points="640,184 640,97"/>
+			<g transform="translate(640,97)">
+				<g transform="rotate(0)">
+					<polygon fill="#FFFFFF" stroke-width="1" stroke="#000000" points="-6,10 0,0 6,10 -6,10"/>
+					
+				</g>
+				
+			</g>
+			
+		</g>
+		<g id="_FsPqAN4zEDOYwYhcWW_2EQ">
+			<polyline stroke-dasharray="1, 2" fill="none" stroke-width="1" stroke="#000000" points="526,390 617,297"/>
+			<g transform="translate(617,297)">
+				<g transform="rotate(44)">
+					<polyline fill="none" stroke-width="1" stroke="#000000" points="-4,8 0,0 4,8"/>
+					
+				</g>
+				
+			</g>
+			
+		</g>
+		<g id="_UlCUIN48EDOf3N__NQ_X9g">
+			<polyline stroke-dasharray="1, 2" fill="none" stroke-width="1" stroke="#000000" points="701,380 639,297"/>
+			<g transform="translate(639,297)">
+				<g transform="rotate(-37)">
+					<polyline fill="none" stroke-width="1" stroke="#000000" points="-4,8 0,0 4,8"/>
+					
+				</g>
+				
+			</g>
+			
+		</g>
+		<text x="521" y="257" fill="#000000">« use »</text>
+		<text x="516" y="346" fill="#000000">« use »</text>
+		<text x="676" y="346" fill="#000000">« use »</text>
+		
+	</g>
+	
+</svg>
