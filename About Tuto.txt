@@ -1,0 +1,9 @@
+
+Crash
+- Observatoire, lors d'un click sur le radio "Vue sur des attributs de l'agent"
+- Définir les agents situés, lorsqu'on essai d'ajouter la tache "Déplacement" ("Viellir" fonctionne)
+- Dans l'ajout de "Modifier attribut" pour manger, fermeture brutale de la fenêtre lors du click qui suit la validation du lien entre le paramètre a et mon_sucre
+- lors de la seconde sauvegarde du projet
+- Chroniques, lors d'un click sur n'importe lequel des boutons servant à la visualisation
+- Dans l'ajout de "Mourir", lors d'un click sur le boutton "ajouter une condition"
+
