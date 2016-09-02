@@ -1,0 +1,72 @@
+*-- HOW TO GENERATE AUTOMATICALLY "JeuDeLaVie" --*
+
+ProjectGenerator generateJeuDeLaVie
+
+OR ->
+
+ProjectGenerator initializeSingleton.
+mbd :=  MBMobidycMain new.
+mbd openMobidyc.
+MBMobidycMain projet scheduler changeSynchroCellules: #cellulesSynchrones.
+TaskGenerator assemblageJeuDeLaVie.
+ObservatoryGenerator observatoryForJeuDeLaVie.
+ GridGenerator gridForJeuDeLaVieFor:  mbd.
+ CellAttributeGenerator cellAttributeForJeuDeLaVie.
+ MathScriptGenerator mathScriptForJeuDeLaVie.
+ CellTaskGenerator cellTasksForJeuDeLaVie.
+(MBSimulateur gestionnaireDesEntites leMouleDuSimulateur lesAttributs
+		at: ( MBInternational dicoNomsAttributs at: #dureeSimulation)) valeur: 30.
+
+
+
+*-- HOW TO CREATE "JeuDeLaVie" WITH INTERFACES --*
+
+Assemblage ->> 
+----------------------------------------------------
+	Nom tâche : Automate
+	Radio :     pour une cellule
+
+	Primitives :
+		Mon Voisinage
+		Trier sur les valeurs des attributs
+		Compter
+
+----------------------------------------------------
+	Nom tâche : ModifierConditionnel
+	Radio :     pour tout type d'agent (Agent)
+
+	Primitives :
+		Si... Alors
+		Modifier attribut
+
+
+
+Créer une grille ->>
+----------------------------------------------------
+	Lignes -> 10 
+	Colonnes -> 10 
+	Forme cellule -> carre8 
+	Frontière -> fermées
+	Taille de la fenetre visu -> 400
+
+
+Définir les cellules ->>
+----------------------------------------------------
+	Attributs :				Taches :
+		localisation -> 1			Compter
+		bordure -> 1				Mourir
+		nbVivants -> 0				Vivre
+		statut -> 0				VieOuMort(MathScript)
+
+Statut cellules :
+----  3 cases de padding
+-- -
+-  -
+----
+
+
+Obeservatoire ->>
+----------------------------------------------------
+	Cellule
+		Blanc -> aucune condition
+		Rouge -> statut = 1
